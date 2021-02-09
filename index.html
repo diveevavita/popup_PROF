@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FORM for Prof</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="page">
+  	<div class="page__content">
+    	<div class="container">
+	     	<div class="container__content">
+	     		<div class="card-form">
+	     			<div class="top">
+		     			<img src="svg/logo.svg" alt="img" class="logo" width="152" border="0" style="display: block; width: 152px; max-width: 100%;" />
+		     			<div class="close_butt">
+						    <div>
+						        <div class="lt-rt"></div>
+						        <div class="rt-lt"></div>
+						    </div>
+						</div>
+					</div>
+	     			<div class="card-form_items">
+	     				<h1 class="name_card">
+	     					Вступить в СтройКлуб
+	     				</h1>
+	     				<img src="svg/prof.svg" alt="img" class="prof" width="231" border="0" style="display: block; width: 231px; max-width: 100%;" />
+	     				<div class="card-form_item">
+			                <form class="card-form_item__" action="#">
+			                  	<input type="text" class="card-form_item_text" placeholder="Фамилия*" name="second_name" required autocomplete="off">
+			                  	<p class="card-form_item_text-hidden">
+			                    Фамилия
+			                  	</p>
+			                </form>
+		              	</div>
+		              	<div class="card-form_item">
+			                <form class="card-form_item__" action="#">
+			                  	<input type="text" class="card-form_item_text" placeholder="Имя*" name="name" required autocomplete="off">
+			                  	<p class="card-form_item_text-hidden">
+			                    Имя
+			                  	</p>
+			                </form>
+		              	</div>
+		              	<div class="card-form_item">
+			                <form class="card-form_item__" action="#">
+			                  	<input type="email" class="card-form_item_text" placeholder="Адрес e-mail*" name="Mail" required autocomplete="off">
+			                  	<p class="card-form_item_text-hidden">
+			                    Адрес e-mail
+			                  	</p>
+			                </form>
+		              	</div>
+		              	<div class="card-form_item">
+			                <div class="card-form_item__choise" action="#">
+			                	<p class="card-form_item__choise_text">
+			                    Выберете город, где работаете
+			                  	</p>
+			                  	<input type="checkbox" id="hd_town" class="hd_button">
+			                  	<label for="hd_town" class="button_hidden_down">
+			                  		<svg width="25" height="25" class="button_hidden" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25.9997 51C39.8067 51 50.9995 39.8071 50.9995 26C50.9995 12.1929 39.8067 1 25.9997 1C12.1927 1 0.999878 12.1929 0.999878 26C0.999878 39.8071 12.1927 51 25.9997 51Z" stroke="#034899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M34.3323 34.3325H17.6658" stroke="#034899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M34.3323 17.6675V34.3341L17.6658 17.6675" stroke="#034899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</label>
+								<div class="card-form_item-hidden-block">
+									<div class="card-form_item-hidden-town">
+										<p class="town_name">
+											г. Барнаул
+										</p>
+									</div>
+									<div class="card-form_item-hidden-town">
+										<p class="town_name">
+											г. Новоалтайск
+										</p>
+									</div>
+									<div class="card-form_item-hidden-town">
+										<p class="town_name">
+											г. Бийск
+										</p>
+									</div>
+								</div>
+			                </div>
+		              	</div>
+		              	<div class="card-form_item">
+			                <form class="card-form_item__" action="#">
+			                  	<input type="number" class="card-form_item_text" placeholder="+7(ХХХ) ХХХ-ХХ-ХХ" name="query" required autocomplete="off">
+			                </form>
+		              	</div>
+		              	<div class="form-group">
+						    <label class="checkbox-group">
+						        <input type="checkbox" class="checkbox" required>
+						        <span class="checkbox-text">Я согласен с политикой конфиденциальности и даю согласие на обработку персональных данных</span>
+						    </label>
+				  		</div>
+				  		<button class="send-button">
+				  			Отправить
+				  		</button>
+		            </div>
+	     		</div>
+	      	</div>
+	    </div>
+	</div>
+</body>
+</html>
