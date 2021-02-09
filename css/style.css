@@ -111,6 +111,7 @@ body {
 
 .prof {
 	margin: 0 auto 30px;
+	width: 231px;
 }
 
 .card-form_items {
@@ -208,6 +209,18 @@ body {
     padding: 15px 20px;
     border-top: 2px solid;
     border-color: #034899;
+}
+
+.card-form_item-hidden-town:focus {
+	cursor: pointer;
+}
+
+.card-form_item-hidden-town:active {
+	cursor: pointer;
+}
+
+.card-form_item-hidden-town:hover {
+	cursor: pointer;
 }
 
 .town_name {
@@ -315,6 +328,11 @@ input:focus:-ms-input-placeholder { color:transparent; }
   clip: rect(1px, 1px, 1px, 1px);
   width: 1px;
   height: 1px;
+}
+
+.button_card-link {
+	text-decoration: none;
+    width: 100%;
 }
 
 .send-button {
@@ -428,4 +446,49 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media (max-width: 480px) {
+
+	.logo {
+		width: 112px;
+		margin: 10px auto 20px 10px;
+	}
+
+	.close_butt {
+		height: 40px;
+    	width: 40px;
+	}
+
+	.close_butt div {
+		height: 40px;
+    	width: 40px;
+	}
+
+	.close_butt .lt-rt {
+		width: 40px;
+		margin-top: 20px;
+	}
+
+	.close_butt .rt-lt {
+		width: 40px;
+		margin-top: 20px;
+	}
+
+	.card-form_items {
+		width: 95%;
+	}
+
+	.name_card {
+		font-size: 22px;
+		margin: 10px auto 5px;
+	}
+
+	.prof {
+		width: 200px;
+	}
+
+	.card-form_item__choise_text {
+		width: 75%;
+	}
 }
